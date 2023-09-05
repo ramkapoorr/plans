@@ -1,0 +1,67 @@
+body{
+    font-family:cursive;
+    
+    
+}
+.container{ 
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   
+   
+  
+   
+}
+.plans{
+   height: 230px ;
+   width: 330px; 
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+ 
+  
+}
+.plan-title{
+    font-size: 23px;
+   
+}
+.plan-price{
+    font-size: 31px;
+}
+li{
+    list-style-type: none;
+    padding: 3px;
+   
+}
+.plan-sign{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(255, 98, 0);
+    border: transparent;
+    border-radius: 5px;
+    height: 23px;
+}
+h1{
+    text-align: center;
+   
+}
+footer{
+    text-align: center;
+}
+
+
+@media(max-width:1000px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        margin-bottom: 150px;
+        font: bold;
+    }
+    footer{
+        margin-top: 155px;
+    }
+}
