@@ -1,1 +1,1 @@
-# plans
+# pricing - table
