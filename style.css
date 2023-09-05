@@ -58,10 +58,11 @@ footer{
         flex-direction: column;
     }
     h1{
-        margin-bottom: 150px;
+        margin-bottom: 120px;
         font: bold;
     }
     footer{
-        margin-top: 155px;
+        margin-top: 105px;
+        margin-bottom:40px;
     }
 }
